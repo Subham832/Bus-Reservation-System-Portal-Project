@@ -102,7 +102,7 @@ blob/4264b3beff0c004e9a69af3ed2eeaa82d351805c/Bus-Reservation-System-Portal
 
 ```
     {
-        "mobileNo": "7338556014",
+        "mobileNo": "73x85y60a4",
         "password": "Subham@832"
     }
 ```
@@ -113,6 +113,6 @@ blob/4264b3beff0c004e9a69af3ed2eeaa82d351805c/Bus-Reservation-System-Portal
    CurrentAdminSession( adminId=10, uuid=ZaVLaK,localDatetime=2022-10-01 12:29:52.376508)
    
 
-# THANK YOU EVERYONE FOR VISITING OUR PROJECT
+# THANK YOU EVERYONE FOR VISITING MY PROJECT
 
 ---
