@@ -1,7 +1,7 @@
 # REST API for Bus Reservation System Portal 
 
 * Developed this REST API for a Bus Reservation System Portal Application. This API performs all the fundamental CRUD operations of any Bus Reservation Application platform with user validation at every step.
-* 
+ 
 ## Tech Stack
 
 * Java
