@@ -1,8 +1,7 @@
 # REST API for Bus Reservation System Portal 
 
-* We have developed this REST API for a Bus Reservation System Portal Application. This API performs all the fundamental CRUD operations of any Bus Reservation Application platform with user validation at every step.
-* This project is developed by team of 5 Back-end Developers during project week in Masai School. 
-
+* Developed this REST API for a Bus Reservation System Portal Application. This API performs all the fundamental CRUD operations of any Bus Reservation Application platform with user validation at every step.
+* 
 ## Tech Stack
 
 * Java
@@ -34,25 +33,21 @@
     * Viewing list of available buses and booking a reservation
     * Only logged in user can access his reservations, profile updation and other features.
 
-## Contributors
-
-* Nikhil Bhardwaj
-* Sandhya Potadar
-* Yuvraj Rajarawal
-* Dheeraj Pandey
-
 ## Installation & Run
 
-* Before running the API server, you should update the database config inside the [application.properties](https://github.com/vinaykumar2n/succinct-wrench-1095/blob/main/BusReservationSystemPortal/src/main/resources/application.properties) file. 
+* Before running the API server, you should update the database config inside the [application.properties](https://github.com/Subham832/Bus-Reservation-System-Portal-Project/
+blob/4264b3beff0c004e9a69af3ed2eeaa82d351805c/Bus-Reservation-System-Portal
+/Bus_reservation_system_portal-main/Bus_Reservation_System_Portal/src/main/resources
+/application.properties) file. 
 * Update the port number, username and password as per your local database config.
 
 ```
     server.port=8888
 
-    spring.datasource.url=jdbc:mysql://localhost:3306/busdb
+    spring.datasource.url=jdbc:mysql://localhost:3306/sb201db
     spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
     spring.datasource.username=root
-    spring.datasource.password=root
+    spring.datasource.password=admin
 
 ```
 
@@ -107,8 +102,8 @@
 
 ```
     {
-        "mobileNo": "8651060999",
-        "password": "Clickme@007"
+        "mobileNo": "7338556014",
+        "password": "Subham@832"
     }
 ```
 
@@ -117,71 +112,6 @@
 ```
    CurrentAdminSession( adminId=10, uuid=ZaVLaK,localDatetime=2022-10-01 12:29:52.376508)
    
-```
- 
-### E-R Diagram Of Bus Application
----
-
-![Bus Reservation System Portal ER Diagram](https://user-images.githubusercontent.com/101393405/193448015-c00c2fe3-f836-4812-ac6a-10965cb4bbec.png)
-
----
-
-### Swagger UI
-
----
-
-<img src="https://github.com/vinaykumar2n/succinct-wrench-1095/blob/main/Images/AllController.jpg?raw=true" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
-
----
-
-### User and User Login Controller
-
----
-
-<img src="https://github.com/vinaykumar2n/succinct-wrench-1095/blob/main/Images/User%26UserLoginController.jpg" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
-
----
-
-### Admin and Admin Login Controller
-
----
-
-<img src="https://github.com/vinaykumar2n/succinct-wrench-1095/blob/main/Images/admin%26adminlogincontroller.jpg?raw=true" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
-
----
-
-### Bus Controller
-
----
-
-<img src="https://github.com/vinaykumar2n/succinct-wrench-1095/blob/main/Images/BusController.jpg?raw=true" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
-
----
-
-### Reservation Controller
-
----
-
-<img src="https://github.com/vinaykumar2n/succinct-wrench-1095/blob/main/Images/ReservationController.jpg?raw=true" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
-
----
-
-### Route Controller
-
----
-
-<img src="https://github.com/vinaykumar2n/succinct-wrench-1095/blob/main/Images/RouteController.jpg?raw=true" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
-
----
-
-### Feedback Controller
-
----
-
-<img src="https://github.com/vinaykumar2n/succinct-wrench-1095/blob/main/Images/FeedbackController.jpg?raw=true" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
-
----
-
 
 # THANK YOU EVERYONE FOR VISITING OUR PROJECT
 
